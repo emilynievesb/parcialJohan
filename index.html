@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <h1>Calculadora</h1>
+        </div>
+        </header>
+        <div class="content">
+        <div class="section1">
+            <h2 id="titulo2">Calculadora de areas y perimetros</h2>
+            <p id="texto">
+            El área y el perímetro son dos de las medidas más importantes de
+            figuras geométricas. El perímetro representa a la suma total de las
+            longitudes de los lados de una figura geométrica. Por otra parte, el
+            área representa a la región cubierta por la figura. El perímetro es
+            una medida unidimensional y el área es una medida bidimensional. A
+            continuacion veremos algunos ejemplos del area y perimetro de
+            diferentes figuras
+            </p>
+            <div class="botones">
+                <a href="#" class="boton1" id="btnabrir">Cuadrado</a>
+                <div class="fondo-transparente" style="display: none;">
+                    <div class="modal">
+                        <div class="modal-cerrar">
+                            <span>X</span>
+                        </div>
+                        <div class="modal-titulo" >Area y perimetro del cuadrado</div>
+                        <div class="modal-content1">
+                            <img src="Cuadrado.png" class="cuadrado" alt="">
+                        </div>
+                        <div class="modal-botones">
+                            <form action="" id="formulario-cuadrado">
+                                <label for="lado-1">Escriba el lado del cuadrado</label>
+                                <input type="number" id="lado-cuadrado">
+                                <button id="calcular-1">Calcular</button>
+
+                            </form>´
+                            <p id="resultado-cuadrado"></p>
+                        </div>
+                        <!-- <a href="#" class="boton2" id="btnabrir-2">Paralelogramo</a>
+                        <div class="fondo-transparente-2" style="display: none;">
+                            <div class="modal">
+                                <div class="modal-cerrar-2">
+                                    <span>X</span>
+                                </div>
+                                <div class="modal-titulo" >Area y perimetro del paralelogramo</div>
+                                <div class="modal-content1">
+                                    <img src="Cuadrado.png" class="cuadrado" alt="">
+                                </div>
+                                <div class="modal-botones">
+                                </div> -->
+                    </div>
+        </div>
+        <script src="app.js"></script>
+</body>
+</html>
